@@ -1,0 +1,37 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    column-gap: 10px;
+    width: 95%;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+figure{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(32, 35, 42);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+figure p{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    /* background-color: #3081D0; */
+    text-align: center;
+    padding-top: 5px;
+}
